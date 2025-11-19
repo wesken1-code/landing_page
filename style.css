@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', 'Arial', sans-serif;
-    background-color: #1F2937;
+    margin: 0;
 }
 button {
     background-color: #3882f6;
@@ -14,6 +14,7 @@ button {
 }
 
 .header {
+    background-color: #1F2937;
     padding-left: 100px;
     padding-right: 100px;
     display: flex;
@@ -70,7 +71,7 @@ button {
 .container_2 {
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #f9faf8;
+    margin: 0;
 }
 .title2 {
     font-size: 36px;
@@ -98,4 +99,24 @@ button {
     width: 150px;
     color: #1F2937;
     text-decoration: none;
+}
+.container_3 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 100px;
+    padding-left: 170px;
+    padding-right: 170px;
+    margin: 0;
+}
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: end;
+}
+.attribution {
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 12px;
+    text-align: end;
 }
